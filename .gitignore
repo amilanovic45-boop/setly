@@ -35,3 +35,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+visioai-web/.next/
+visioai-web/node_modules/
+visioai-web/package-lock.json

@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 import { Providers } from './providers';
@@ -10,6 +10,9 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 export const metadata: Metadata = {
   title: 'VisioAI — AI Creative Studio',
   description: 'Generate stunning images and videos with state-of-the-art AI models.',
+};
+
+export const viewport: Viewport = {
   themeColor: '#0A0A0F',
 };
 
